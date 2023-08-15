@@ -1,0 +1,77 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background image and styling for the container */
+.container {
+    display: flex;
+    justify-content: center; /* Align content horizontally at center */
+    align-items: center; /* Align content vertically at center */
+    min-height: 100vh;
+    text-align: center;
+    background: url('tempconvertor.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: transparent; /* Set background color to transparent */
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: rgba(240, 172, 95, 0.4); /* Adjust the alpha value for transparency */
+    box-shadow: rgba(43, 58, 14, 0.488) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+/* ... your existing styles ... */
+
+label {
+    font-size: 30px;
+    line-height: 78px;
+    text-align: left; /* Align label text to the left */
+}
+
+#temp {
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#temp_diff {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgba(224, 197, 120, 0.7); /* Adjust the alpha value for transparency */
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgba(215, 175, 123, 0.7); /* Adjust the alpha value for transparency */
+    cursor: pointer;
+}
+
+#result{
+    font-size: 27px;
+    text-align: left; /* Align result text to the left */
+}
